@@ -79,6 +79,6 @@ section {
 }
 
 .home-container {
-    background: url("<a href="https://ibb.co/wR2FmFD"><img src="https://i.ibb.co/t41TrTy/home-img.jpg" alt="home-img" border="0"></a>");
+    background: url("./img/home-img.jpg");
     height: 100vh;
 }
