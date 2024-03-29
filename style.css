@@ -55,4 +55,5 @@ section {
     color: var(--main-color);
     border-bottom: 0.1rem solid var(--main-color);
     padding-bottom: 0.5rem;
+    font-size: 2rem;
 }
