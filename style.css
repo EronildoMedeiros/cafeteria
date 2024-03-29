@@ -5,6 +5,7 @@
     --border: 0.1rem solid rgba(255,255,255,0.3);
     --white: #fff;
     font-size: 10px;
+    font-family: "Roboto", sans-serif;
 }
 
 * {
@@ -14,7 +15,11 @@
     border:none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: 0.2 linear;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 
 body {
@@ -56,4 +61,14 @@ section {
     border-bottom: 0.1rem solid var(--main-color);
     padding-bottom: 0.5rem;
     font-size: 2rem;
+}
+
+.icons img {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    width: 40px;
+    height: 40px;
 }
