@@ -78,6 +78,7 @@ section {
     cursor: pointer;
     margin-top: 1rem;
     display: inline-block;
+    letter-spacing: 0.1rem;
 }
 
 .home-container {
