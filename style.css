@@ -111,9 +111,10 @@ section {
 }
 
 .title {
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--main-color);
     text-align: center;
+    text-transform: uppercase;
 }
 
 .title span {
