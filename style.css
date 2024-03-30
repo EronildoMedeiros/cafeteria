@@ -128,3 +128,19 @@ section {
     background-color: var(--black);
     gap: 1.5rem;
 }
+
+.about .row .content {
+    padding:2rem;
+}
+
+.about .row .content h3 {
+    font: size 3rem;
+    color: #fff;
+}
+
+.about .row .content p {
+    font: size 1.6rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1.8;    
+}
