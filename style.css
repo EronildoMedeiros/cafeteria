@@ -78,6 +78,11 @@ section {
     cursor: pointer;
     margin-top: 1rem;
     display: inline-block;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 
 .btn:hover {
