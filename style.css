@@ -122,6 +122,7 @@ section {
     text-transform: uppercase;  
 }
 
-.about {
-     
+.about row {
+    display: flex;
+    align-items: center;     
 }
