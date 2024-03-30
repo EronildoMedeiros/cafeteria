@@ -108,3 +108,16 @@ section {
     line-height: 1.8;
     padding: 1rem 0;
 }
+
+.title {
+    font-size: size 4rem;
+    color: var(--main-color);   
+}
+
+.title span {
+    color: #fff;
+}
+
+.about {
+     
+}
