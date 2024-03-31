@@ -191,19 +191,19 @@ section {
 }
 
 .menu .box-container .box:hover {
-    background-color:#fff;
-    transition: 0.2s linear;
-    -webkit-transition: 0.2s linear;
-    -moz-transition: 0.2s linear;
-    -ms-transition: 0.2s linear;
-    -o-transition: 0.2s linear;
+    background-color:var(--main-color);
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
 }
 
 .menu .box-container .box:hover>* {
     color: var(--black);
-    transition: 0.2s linear;
-    -webkit-transition: 0.2s linear;
-    -moz-transition: 0.2s linear;
-    -ms-transition: 0.2s linear;
-    -o-transition: 0.2s linear;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
 }
