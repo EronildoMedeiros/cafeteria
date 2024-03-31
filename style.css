@@ -207,3 +207,26 @@ section {
     -ms-transition: 0.2s linear;
     -o-transition: 0.2s linear;
 }
+
+.review .box-container .box {
+    border: var(--border);
+    text-align: center;
+    padding:3rem 2rem;
+}
+
+.review .box-container .box p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem 0;
+    line-height: 1.8;
+}
+
+.review .box-container .box user {
+    height: 7rem;
+    width: 7rem;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
