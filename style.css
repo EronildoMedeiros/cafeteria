@@ -165,6 +165,7 @@ section {
     text-align: center;
     border: var(--border);
     padding: 5rem;
+    cursor: pointer;
 }
 
 .menu .box-container .box img {
@@ -181,4 +182,18 @@ section {
     color: #fff;
     font-size: 2.5rem;
     padding: 0.5rem 0;
+}
+
+.menu .box-container .box .price span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.menu .box-container .box:hover {
+    background-color:#fff;
+}
+
+.menu .box-container .box:hover>* {
+    color: var(--black);
 }
