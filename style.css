@@ -191,9 +191,9 @@ section {
 }
 
 .menu .box-container .box:hover {
-    background-color:#fff;
 }
 
 .menu .box-container .box:hover>* {
+    background-color:#fff;
     color: var(--black);
 }
